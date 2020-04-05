@@ -1,0 +1,233 @@
+/* whole */
+.container {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.container h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 54px;
+}
+/* whole */
+
+/* header */
+header {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: gray;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+.header__left {
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 30px;
+    cursor: pointer;
+}
+.header__right {
+    padding-top: 30px;
+}
+.header__navL {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.header__navLink {
+    padding-right: 30px;
+    font-weight: bold;
+}
+.header__navLink a {
+    text-decoration: none;
+    color: black;
+}
+/* header */
+
+/* top-wrapper */
+.top-wrapper {
+    background-image: url(/img/main-vsual-nontitle.png);
+    background-size: cover;
+    width: 100%;
+    margin-top: 80px;
+}
+.message {
+    padding-top: 115px;
+    padding-bottom: 115px;
+    font-weight: bold;
+}
+.message__sec1 {
+    font-size: 50px;
+    line-height: 1.5;
+}
+.message__sec2 {
+    padding-top: 30px;
+    line-height: 1.5;
+    font-size: 20px;
+}
+/* top-wrapper */
+
+/* main-wrapper */
+.main {
+    margin-bottom: 40px;
+}
+.main-wrapper {
+    display: flex;
+}
+.main-wrapper__img{
+    width: 48%;
+    padding-right: 42px;
+}
+.main-wrapper__p {
+    padding-top: 30px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 1.5;
+}
+/* main-wrapper */
+
+/* course-wrapper */
+.courses {
+    margin-bottom: 5px;
+}
+.courses__contents {
+    display: flex;
+    justify-content: space-between;
+}
+.course {
+    padding: 20px;
+}
+.course__img {
+    width: 100%;
+}
+.course__lngs {
+    text-align: left;
+    padding-top: 5px;
+    display: none;
+}
+.couse__open {
+    display: block;
+}
+/* course-wrapper */
+
+/* contact-form */
+.contact-form {
+    margin-bottom: 10px;
+}
+.contact-form__title {
+    padding-top: 80px;
+}
+.contact-form__p {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.contact-form__input {
+    width: 65%;
+    height: 60px;
+    border-radius: 30px;
+    border: 2px solid #F2F2F2;
+    margin-bottom: 30px;
+}
+.contact-form__btn {
+    background-color: #FA8072;
+    padding: 30px 120px;
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+/* contact-form */
+
+/* footer */
+footer {
+    margin: 100px 0;
+}
+.footer-right {
+    text-align: right;
+    justify-content: flex-end;
+    border-top: 2px solid #eee;
+}
+.footer-right__p {
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+/* footer */
+
+/* page-top */
+#page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* font-size: 100%; */
+    display: none;
+}
+#page-top a {
+    display: block;
+    background: #666;
+    color: #fff;
+    width: 100px;
+    padding: 25px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#page-top a:hover {
+    background: #999;
+}
+/* page-top */
+
+/* スマホ対応 */
+@media (max-width: 670px){
+    .header {
+        height: 100px;
+    }
+    .header__right {
+        padding-top: 20px;
+    }
+    .header__nav {
+        display: block;
+        width: 100%;
+    }
+    .header__navL {
+        display: flex;
+        justify-content: center;
+    }
+    .message__sec1 {
+        font-size: 59px;
+    }
+    .courses__contents {
+        display: block;
+    }
+    .course__img {
+        width: 100%;
+    }
+    .main-wrapper {
+        display: block;
+    }
+    .main-wrapper__img {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main-wrapper__p {
+        width: 100%;
+    }
+    .contact-form {
+        width: 100%;
+    }
+    .footer-right {
+        text-align: center;
+    }
+}
+/* スマホ対応 */
+
+
+
+
+
